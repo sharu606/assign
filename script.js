@@ -21,6 +21,9 @@ document.addEventListener("mousemove", (e) => {
 function registerHandler() {
   document.getElementById("registerPage").style.display = "block";
   document.getElementById("landingPage").style.display = "none";
+  document.getElementById("register").style.display = "none";
+  document.getElementById("logout").style.display = "block";
+  document.getElementById("login").style.display = "none";
 }
 
 function submitHandler(event) {
