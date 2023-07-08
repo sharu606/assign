@@ -85,7 +85,7 @@ function loginHandler() {
     }
   });
 
-  if (!found) {
+  if (!found || users == []) {
     document.getElementById("alert").style.display = "block";
     setTimeout(function () {
       document.getElementById("alert").style.display = "none";
