@@ -147,7 +147,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 680px;
+  min-height: 700px;
 }
 
 .cta {
