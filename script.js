@@ -21,9 +21,6 @@ document.addEventListener("mousemove", (e) => {
 function registerHandler() {
   document.getElementById("registerPage").style.display = "block";
   document.getElementById("landingPage").style.display = "none";
-  document.getElementById("register").style.display = "none";
-  document.getElementById("logout").style.display = "block";
-  document.getElementById("login").style.display = "none";
 }
 
 function submitHandler(event) {
@@ -52,6 +49,9 @@ function submitHandler(event) {
   localStorage.setItem("loggedIn", "1");
   document.getElementById("registerPage").style.display = "none";
   document.getElementById("homePage").style.display = "block";
+  document.getElementById("register").style.display = "none";
+  document.getElementById("logout").style.display = "block";
+  document.getElementById("login").style.display = "none";
 }
 
 function cancelHandler() {
