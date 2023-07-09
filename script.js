@@ -319,6 +319,7 @@ function display(array) {
 
 var selected = [];
 function select() {
+  selected = [];
   document.getElementById("candidates").style.display = "none";
   document.getElementById("selected").style.display = "block";
 
